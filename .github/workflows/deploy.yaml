@@ -22,9 +22,7 @@ jobs:
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
           application_name: frontend
           environment_name: Frontend-env
-          # existing_bucket_name: elasticbeanstalk-us-east-1-504432438435
           existing_bucket_name: grider-gh-actions-demo-bucket
-          # new bucket name => grider-gh-actions-demo-bucket
           region: us-east-1
           version_label: ${{ github.sha }}
           deployment_package: deploy.zip
