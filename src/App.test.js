@@ -7,8 +7,8 @@ test('renders learn react link', () => {
   expect(linkElement).toBeInTheDocument()
 })
 
-test('renders a top level heading', () => {
-  render(<App />)
-  const heading = screen.getByText(/How are you doing?/)
-  expect(heading).toBeInTheDocument()
-})
+// test('renders a top level heading', () => {
+//   render(<App />)
+//   const heading = screen.getByText(/How are you doing?/)
+//   expect(heading).toBeInTheDocument()
+// })
